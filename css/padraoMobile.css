@@ -1,0 +1,252 @@
+/*ARQUIVO CSS PARA ESTILIZAÇÃO DA ESTRUTURA BÁSICA DO SITE (CORPO,CABEÇALHO, MENU E FOOTER)*/
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+*{
+	font-family: Helvetica;
+	font-size: 1em;
+	color: #000;
+}
+
+p{
+    display: block;
+    text-align: justify;
+}
+
+textarea{
+	resize: none;
+}
+
+#corpo{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: auto;
+	float: left;display: block;
+	background-color:  #1874cd;
+	padding: 10px;
+}
+
+#caixaLogo{
+	width: 300px;
+	height: 170px;
+	margin: 0 auto;
+	background-image: url(../img/logoMS.jpeg);
+	background-size: 100%;
+	background-position: center;
+	border-radius: 15px;
+	background-color: #fff;
+}
+
+#caixaTelefone{
+	float: left;
+	width: 400px;
+	height: auto;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+#caixaIconTelefone{
+	float: left;
+	margin-right: 10px;
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/icon/iconTelefone.png);
+}
+
+#textoTelefone{
+	line-height: 50px;
+	color:#fff;
+	font-weight: bold;
+}
+
+#textoIcone{
+	float: left;
+	color: #fff;
+	margin-right: 15px;
+	line-height: 50px;
+}
+
+
+#caixaIconTelefone{
+	float: left;
+	margin-right: 10px;
+	width: 48px;
+	height: 48px;
+	background-image: url(../img/icon/iconTelefone.png);
+}
+
+#caixaIcones{
+	width: auto;
+	height: auto;
+	float: right;
+	margin-top:10px;
+}
+
+.circuloIcone{
+	width: 48px;
+	height: 48px;
+	border:none;
+	border-radius: 25px;
+	float: left;
+	margin-left: 20px;
+}
+
+#iconeFacebook{
+	background-image: url(../img/icon/iconFacebook.png);
+}
+
+#iconeTwitter{
+	background-image: url(../img/icon/iconTwitter.png);
+}
+
+#iconeInstagram{
+	background-image: url(../img/icon/iconInstagram.png);
+}
+
+#iconeLinkedin{
+	background-image: url(../img/icon/iconLinkedin.png);
+}
+
+/*ESTILIZAÇÃO MENU*/
+
+
+nav{
+	display: none;
+}
+
+#menuMobile{
+	width: 100%;
+	height: 70px;
+	background-color: #0099ff;
+	clear: both;
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../img/icon/menu.png);
+}
+
+.dropdownListaMenu {
+    display: none;
+    background-color: #1874cd;
+
+}
+
+.listaMenu{
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	font-size: 18px;
+	border-top: solid 1px #ccc; 
+	line-height:60px; 
+}
+
+/* Slider */
+#slider {
+	
+	display: none;
+}
+
+
+/* IMAGENS FIXAS */
+#slideImg1 {background-image:url(../img/android.jpg);}
+#slideImg2 {background-image:url(../img/windows.jpg);}
+#slideImg3 {background-image:url(../img/code.jpg);}
+
+/*RODAPÉ*/
+
+footer{
+	width: 100%;
+	height: auto; 
+	float: left;
+	border-top: solid 3px #ccc;
+	/*box-shadow: 5px 2px 5px 5px #d9d9d9;*/
+}
+
+#caixaFormulario{
+	margin: 0 auto;
+	padding: 0px 15px 15px 15px;
+	width: 250px;
+	height: auto;
+}
+
+#campoNome{
+	background-image: url(../img/icon/iconUser.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#campoEmail{
+	background-image: url(../img/icon/iconEmail.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#botaoReceba{
+	display: block;
+	margin: auto;
+}
+
+/*TÍTULO*/
+.tituloRodape{
+	font-size: 20px;
+	color: #1874cd;
+	text-align: center;
+}
+
+#caixaRedesSociaisRodape{
+	width: 200px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.circuloIconeRodape{
+	width: 48px;
+	height: 48px;
+	border-radius: 20px;
+	margin-left: 15px;
+	margin-top: 15px;
+	float: left;
+	clear: both;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#iconeRodapeFacebook{
+	background-image: url(../img/icon/iconFacebook.png);
+}
+
+#iconeRodapeTwitter{
+	background-image: url(../img/icon/iconTwitter.png);
+}
+
+#iconeRodapeLinkedin{
+	background-image: url(../img/icon/iconLinkedin.png);
+}
+
+#iconeRodapeInstagram{
+	background-image: url(../img/icon/iconInstagram.png);
+}
+
+.textoRodape{
+	float: left;
+	margin-top: 25px;margin-left: 20px;
+	color:#0059b3;
+}
+
+#caixaInfoRodape{
+	width: 100%;
+	padding: 15px;
+	height: auto;
+	display: block;
+	clear: both;
+	margin-top: 15px;
+}

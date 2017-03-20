@@ -1,0 +1,105 @@
+/*CSS PARA ESTILIZAÇÃO DA PÁGINA SOLUÇÕES DO SITE*/
+
+
+#caixaWallpaper{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/code.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-top: 0px;
+}
+
+#tituloWallpaper{
+    width:50%;
+    height:auto;
+    margin: 0 auto;
+    margin-left: 0px;
+    font-size: 32px;
+    margin-top: 180px;
+    display: block;
+    color:#fff;
+    z-index:-1;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.498039);
+}
+
+.caixaDescricaoSolucao{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-bottom:solid 2px #ccc;
+    padding: 20px;
+    float: left;
+} 
+
+.caixaTextoSolucao{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    float: left;
+}
+
+.caixaTextoDescricao{
+  width: 100%;
+  height: auto;
+  float: left;
+  box-shadow: 2px 2px 2px 2px #d9d9d9;
+  padding:20px 20px 20px 20px;   
+  margin-bottom: 15px;
+}
+
+.caixaiconeTitulo{
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+#caixaIconeMobile{
+    background-image: url(../img/icon/mobile.png);
+}
+
+#caixaIconeWeb{
+    background-image: url(../img/icon/web.png);
+    float: right;
+}
+
+#caixaIconeDesktop{
+    background-image: url(../img/icon/desktop.png);
+}
+
+.tituloSolucao{
+    margin:8px  0px 20px 0px;
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 30px;
+}
+
+.caixaImagem{
+    width: 100%;
+    height: 350px;
+    clear: both;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#imgMobile{
+    background-image: url(../img/wallpaper/mcommerce.jpg);
+}
+
+#imgDesktop{
+    background-image: url(../img/wallpaper/desktop.jpg);
+}
+
+#imgWeb{
+    background-image: url(../img/wallpaper/ecomerce.png);
+    float: left;
+}
+
+#caixaTextoWeb{
+    float: right;
+}

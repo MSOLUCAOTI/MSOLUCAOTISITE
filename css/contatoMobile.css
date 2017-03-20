@@ -1,0 +1,40 @@
+/*ARQUIVO CSS PARA ESTILIZAÇÃO DA PÁGINA CONTATO DO SITE */
+
+#caixaWallpaper{
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/contato.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size: 100%;
+	margin-bottom: 0px;
+    float: left;
+}
+
+#caixaFormularioContato{
+	width:100%;
+    height:auto;
+    margin: 0 auto;
+    margin-top: 0px;
+    z-index:-1;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.498039);
+}
+
+#caixaFormularioContato label{
+	color:#ccc;
+}
+
+#botaoContato{
+	background-color: #0080ff;
+	color:#fff;
+	border:none;
+	font-weight: bold;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+#botaoContato:hover{
+	background-color: #1874cd;
+}

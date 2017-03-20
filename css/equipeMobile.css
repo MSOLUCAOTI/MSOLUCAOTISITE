@@ -1,0 +1,226 @@
+/*ARQUIVO CSS PARA ESTILIZAÇÃO DA PÁGINA EQUIPE	 DO SITE */
+
+#caixaWallpaperEquipe{
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/equipe.png);
+	background-repeat: no-repeat;background-size: 100%;background-position: center;
+}
+
+#caixaTituloEquipe{
+	width:50%;
+    height:auto;
+    margin: 0 auto;
+    color:#fff;
+    z-index:-1;
+    padding: 15px;
+    float: left;
+    margin-top: 200px;
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0.498039);
+}
+
+.textoHistoria{
+    color:#1a1a1a;
+    font-size: 17px;
+    line-height: 30px;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: justify;
+}
+
+.tituloEquipe{
+    color:#1874cd;
+    clear: both;
+    font-size: 28px;
+    margin: 15px;
+}
+
+.caixaIntegrante{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #ccc;
+    padding: 5px;
+}
+
+.caixaIntegrante p {
+    float: left;
+    margin-left: 5px;
+}
+
+.caixaFoto{
+    width: 130px;
+    height: 130px;
+    border-radius:60px;
+    float: left;
+    margin-left: 10px;
+    background-position: center;
+    background-size: 100%;
+}
+
+.caixaInformacao{
+    width: 160px;
+    height: auto;
+    float: left;
+}
+
+.caixaIconAtuacao{
+    width: 20px;
+    height: 20px;
+    float: left;
+    clear: both;
+    margin-top: 10px;
+    background-image: url(../img/icon/maleta.png);
+}
+
+.caixaIconFormacao{
+    width: 20px;
+    height: 20px;
+    float: left;
+    clear: both;
+    margin-top: 10px;
+    background-image: url(../img/icon/chapeu.png);
+}
+
+.cargoPerfil{
+    color:#1874cd;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.textoFormacao{
+    display: block;
+    clear: both;
+}
+
+.balaoConversa {
+   float: right;
+   padding: 10px;
+   width: 220px; 
+   color: #fff;
+   text-align: justify;
+   border-radius: 10px;
+   padding: 15px;
+   
+}
+
+.balaoConversa:before {
+   content:"";
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-top: 20px solid transparent;
+   border-bottom: 20px solid transparent;
+   margin: 10px 0 0 -32px;
+}
+
+.caixaInfo{
+    width: 180px;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+}
+
+.caixaInfo span{
+    display: block;
+    
+}
+
+.caixaBalao{
+    width: 50%;
+    height: auto;
+    border:solid 1px ;
+    float: right;
+}
+
+/*ID DE CADA FOTO E BALÃO DE CONVERSA DOS INTEGRANTES*/
+
+/*ISMAEL*/
+#imgIsmael{
+    background-image: url(../img/Ismael.jpg);
+}
+
+#balaoIsmael:before{
+    border-right: 30px solid #990000;
+}
+
+#balaoIsmael{
+    background-color: #990000;
+}
+
+
+/*GUILHERME*/
+#imgGuilherme{
+    background-image: url(../img/Guilherme.jpg);
+}
+
+#balaoGuilherme:before{
+    border-right: 30px solid #ff8000;
+}
+
+#balaoGuilherme{
+    background-color: #ff8000;
+}
+
+
+/*JASON*/
+#imgJason{
+    background-image: url(../img/Jason.jpg);
+}
+
+#balaoJason:before{
+    border-right: 30px solid #996633;
+}
+
+#balaoJason{
+    background-color: #996633;
+}
+
+
+/*JHON*/
+#imgJhon{
+    background-image: url(../img/Jhon.jpg);
+}
+
+#balaoJhon:before{
+    border-right: 30px solid #00997a;
+}
+
+#balaoJhon{
+    background-color: #00997a;
+}
+
+/*ZAQUEU*/
+#imgZaqueu{
+    background-image: url(../img/Zaqueu.jpg);
+}
+
+#balaoZaqueu:before{
+    border-right: 30px solid #404040;
+}
+
+#balaoZaqueu{
+    background-color: #404040;
+}
+
+/*LUCAS*/
+#imgLucas{
+    background-image: url(../img/Lucas.jpg);
+}
+
+#balaoLucas:before{
+    border-right: 30px solid #1874cd;
+}
+
+#balaoLucas{
+    background-color: #1874cd;
+}
